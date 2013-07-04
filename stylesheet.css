@@ -1,0 +1,13 @@
+div{border-radius:20px;
+	margin:auto;
+	height:50px;
+	width:100px;
+	border:5px solid red;
+	background-color:blue;
+	text-align:center;
+	}
+
+a{text-decoration: none;
+	color:red;}
+
+*{font-family: Garamond;}
