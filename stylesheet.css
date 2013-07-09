@@ -1,15 +1,13 @@
 
 
-div{border-radius:20px;
+/*div{border-radius:20px;
 	margin:auto;
-	height:50px;
-	width:100px;
-	border:5px solid red;
 	background-color:blue;
-	text-align:center;}
-
-a{text-decoration: none;
-	color:red;}
+	width:800px;
+	border: 50px;
+	border-color: navy;
+	}
+*/
 
 *{
 	font-family: Tahoma;
@@ -29,17 +27,16 @@ p{
 	margin-left: 425px;
 	margin-right: auto;}
 
+h1{
+	text-align: center;
+	
+}
 
 h2{
 	margin-left: 225px;}
 
 ul{
 	margin-left: 350px;}
-
-form{
-	margin-left: auto;
-	margin-right: auto;
-}
 
 #borderleft1{
 	display: inline;
