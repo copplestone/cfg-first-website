@@ -24,19 +24,23 @@ p{
 .mainimg{
 	height: 20%;
 	width: 20%;
-	margin-left: 425px;
+	display: block;
+	margin-left: auto;
 	margin-right: auto;}
 
 h1{
-	text-align: center;
-	
-}
+	text-align: center;}
 
 h2{
 	margin-left: 225px;}
 
 ul{
 	margin-left: 350px;}
+
+.feedbackform{
+	;
+	margin-left: 200px;
+}
 
 #borderleft1{
 	display: inline;

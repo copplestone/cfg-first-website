@@ -42,12 +42,18 @@
 
 <div>
 <h2>Feedback</h2>
-<form action="contact.php" method="post">
-    <p>Name
+<form action="contact.rb" method="post">
+    <p class="feedbackform">Name
     <input type="text" name="cf_name"></p>
-    <p>Email address
+    <p class="feedback form">Email address
     <input type="text" name="cf_email"></p>
-    <p>Comments and feedback
+    <p class="feedbackform"><select name="How did you hear about Bumpabag?">
+        <option value="Word of mouth" selected>Word of mouth</option>
+        <option value="I saw one on a car">I saw one on a car</option>
+        <option value="Google">Google</option>
+        <option value="At a trade fair">At a trade fair</option>
+    </select></p>
+    <p class="feedbackform">Comments and feedback
     <textarea name="cf_message"></textarea></p>
     <p><input type="submit" value="Send">
     <input type="reset" value="Clear"></p>
