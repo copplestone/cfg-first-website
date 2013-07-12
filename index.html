@@ -1,35 +1,62 @@
 <!DOCTYPE html>
 <html>
 <head><title>Bumpabag</title>
+<link href='bootstrap/css/bootstrap.css' rel='stylesheet'>
 <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
 <link rel="shortcut icon" type="image/ico" href="http://i1285.photobucket.com/albums/a584/copplestone/8d5c5d90-3a11-4022-a54b-cff88b501687_zpsd98e9577.jpg?t=1372848886">
 </head>
 
 <body>
 
-<div>
+<div class="navbar navbar-fixed-top navbar-inverse">
+  <div class="navbar-inner">
+    <div class="container">
+  <a class="brand" href="#">Bumpabag</a>
+  <ul class="nav">
+    <li class="active"><a href="#">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Store</a></li>
+    <li><a href="#">FAQs</a></li>
+    </ul>
+    <form class="navbar-search pull-right">
+    <input text="text" class="search-query" placeholder="Search"></form> 
+  </div>
+    </div>
+  </div>
 
-<h1><strong>BUMPABAG</strong></h1>
-x
+<div class = "container">
 
-<img class="mainimg" src="http://i1285.photobucket.com/albums/a584/copplestone/Highestresolutionimage_zps57bc2a77.jpg?t=1372848356"/>
+<div class="page-header"></div><h1><strong>Bumpabag</strong></h1>
+
+<div class="row">
+<div class="span6">
     <p>Bumpabag is a simple product which extends the storage capacity of small cars.It is easy to install and a bargain in comparison to roof boxes or trailers.Whether you're going camping for the weekend, moving back to uni or going to a festival with your friends, the Bumpabag will solve your storage issues.</p>
 
 
-<img class="mainimg" src="http://i1285.photobucket.com/albums/a584/copplestone/IMGP3414_zpsbbfb9e24.jpg?t=1372763667"/>
+<img class="smallimg" src="kings-parade.JPG"/>
 
     <p>The Bumpabag is the product of a 3rd year manufacturing engineering project by Grace Copplestone, Guy Simon and Cameron Smith. Developed at the Institute of Manufacturing, the Bumpabag is currently at the prototyping stage. We welcome any feedback, just follow the link to our feedback form</p>
+
+<div class="row">
+
+<div class="hero-unit span2 pull-left">
+<h2>Want one for yourself?</h2>
+<p> <a href="#" class="btn btn-primary btn-large">Buy one here</a>
 </div>
 
-<div>
+<div class="span4"><img id="on-car-img" src="on-car.JPG" class="media-object"/>
+</div>
+</div>
+</div>
+
+
+<div class="span6">
 <h2>Development</h2>
 
     <p>The Bumpabag is the product of a year's work. All the prototypes were manufactured in house and tested on the streets of Cambridge.</p>
 
-<img class="mainimg" src="http://i1285.photobucket.com/albums/a584/copplestone/IMGP3418_zps9864ec37.jpg?t=1372849986"/>
-</div>
+<img src="testing.JPG"/>
 
-<div>
 <h2>Design features</h2>
     <ul>
 	   <li>Cut resistant straps</li>
@@ -38,12 +65,33 @@ x
 	   <li>Three curved, fibre glass struts in the back of the bag</li> 
     </ul>
 
-<img class="mainimg" src="http://i1285.photobucket.com/albums/a584/copplestone/IMGP3455_zpse5c72bee.jpg?t=1372849897"/>
-</div>
+<img class="smallimg" src="back-struts.JPG"/>
+
 
 <div>
 <h2>Feedback</h2>
-<form action="contact.rb" method="post">
+
+<form>
+    <p>Name</p>
+    <input type="text">
+    <p>Email address</p>
+    <input type="text"></p>
+    <p>How did you hear about Bumpabag?</p>
+    <p class="feedbackform"><select name="How did you hear about Bumpabag?">
+        <option value="Word of mouth" selected>Word of mouth</option>
+        <option value="I saw one on a car">I saw one on a car</option>
+        <option value="Google">Google</option>
+        <option value="At a trade fair">At a trade fair</option>
+    </select></p>
+    <p>Comments and feedback</p>
+    <textarea name="feedback"></textarea>
+    <p><button type="submit" class="btn btn-warning">Submit</button></p>
+</form>
+
+
+
+
+<!--<form action="contact.rb" method="post">
     <p class="feedbackform">Name
     <input type="text" name="cf_name"></p>
     <p class="feedback form">Email address
@@ -58,20 +106,9 @@ x
     <textarea name="cf_message"></textarea></p>
     <p><input type="submit" value="Send">
     <input type="reset" value="Clear"></p>
-</form>
+</form>-->
 </div>
-
-<img id="borderleft1" src="http://i1285.photobucket.com/albums/a584/copplestone/Screenshot2013-07-09at104053_zps5a904840.png"/>
-
-<img id="borderright1" src="http://i1285.photobucket.com/albums/a584/copplestone/Screenshot2013-07-09at104053_zps5a904840.png"/>
-
-<img id="borderleft2" src="http://i1285.photobucket.com/albums/a584/copplestone/Screenshot2013-07-09at104053_zps5a904840.png"/>
-
-<img id="borderright2" src="http://i1285.photobucket.com/albums/a584/copplestone/Screenshot2013-07-09at104053_zps5a904840.png"/>
-
-<img id="borderleft3" src="http://i1285.photobucket.com/albums/a584/copplestone/Screenshot2013-07-09at104053_zps5a904840.png"/>
-
-<img id="borderright3" src="http://i1285.photobucket.com/albums/a584/copplestone/Screenshot2013-07-09at104053_zps5a904840.png"/>
-
+</div>
+</div>
 </body>
 </html>

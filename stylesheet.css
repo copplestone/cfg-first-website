@@ -9,12 +9,13 @@
 	}
 */
 
-*{
-	font-family: Tahoma;
-	background-color: navy;
-	color: white;}
+/*{
+	
+	background-color: white;
+	color: 9999CC;}
+*/
 
-p{
+/*p{
 	text-align: left;
 	color: white;
 	margin-left: auto;
@@ -76,4 +77,48 @@ ul{
 	display: inline;
 	position: absolute;
 	right: 0px;
-	top: 1000px;}
+	top: 1000px;}*/
+
+
+body { padding-top: 40px; }
+
+.smallimg{
+	height:70%;
+	width:70%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+#on-car-img{
+	height:40%;
+	width:40%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
